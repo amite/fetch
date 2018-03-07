@@ -6,7 +6,7 @@ Declarative Fetch component for React Suspense.
 
 Ayyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 
-So this is totally experimental. The React API's this component uses are unstable and will change. We’re all still learning what they even mean! But that doesn't mean we can't play around with them and figure out how to make them even better. So come along, but beware!
+So this is totally experimental. The React APIs this component uses are unstable and will change. We’re all still learning what they even mean! But that doesn't mean we can't play around with them and figure out how to make them even better. So come along, but beware!
 
 Also, this may totally not be at all what React has in mind for these APIs, so don't get too excited, just have some fun.
 
@@ -48,7 +48,7 @@ const Component = ReactionsFetch;
 Reading and invalidating a path:
 
 ```jsx
-<Fetch path="https://api.gitub.com/gists">
+<Fetch path="https://api.github.com/gists">
   {({ data, invalidate }) => (
     <div>
       <button onClick={invalidate}>Refresh</button>
